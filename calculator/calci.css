@@ -1,0 +1,93 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #cadeec;
+}
+.container
+{
+    width: 45%;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px #fcfdfd,
+            -10px -10px 20px #ffffff ;
+}
+.display #screen
+{
+    width: 97%;
+    height: 70px;
+    font-size : 35px;
+    outline : none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #f2f5f7;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #dde4e1,
+            inset -8px -8px -8px #ffffff ;
+}
+
+.btns
+{
+    width: 100%;
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.btns .row button
+{
+    width: 80px;
+    height: 40px;
+    font: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    outline: none;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020,
+            -5px -5px 8px #ccd5fa ;
+            transition: .1s;
+}
+
+.btns .row button:hover
+{
+    box-shadow: inset 5px 5px 8px #00000020,
+               inset -5px -5px 8px #fff;
+               background: rgb(194, 207, 248);
+}
+
+#eval
+{
+    background: rgb(14, 245, 33);
+    color:rgb(251, 253, 251);
+    box-shadow: inset 5px 5px 8px #45df5a,
+        inset -5px -5px 8px #9cf3be ;
+}
+
+#eval:hover{
+    box-shadow: inset 5px 5px 8px #66cff0,
+    inset -5px -5px 8px #92def1 ;
+}
+
+#clear
+{
+    background: rgb(74, 245, 208);
+    color:#fff;
+    box-shadow: inset 5px 5px 8px #5fe6d4,
+        inset -5px -5px 8px #8ef1ec ;
+}
+
+#clear:hover{
+    box-shadow: inset 5px 5px 8px #66cff0,
+    inset -5px -5px 8px #92def1 ;
+}
+
+
